@@ -1,0 +1,11 @@
+Wed, Apr 30, 2025  8:16:06 PM: 
+ treemap.c | 9 ++++++---
+ 1 file changed, 6 insertions(+), 3 deletions(-)
+Compilation failed
+In file included from test.c:4:0:
+treemap.c: In function 'createTreeMap':
+treemap.c:41:29: error: return makes pointer from integer without a cast [-Werror=int-conversion]
+     if (new == NULL) return EXIT_FAILURE;
+                             ^~~~~~~~~~~~
+cc1.exe: all warnings being treated as errors
+5729e4d
