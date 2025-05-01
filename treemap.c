@@ -124,7 +124,7 @@ Pair * nextTreeMap(TreeMap * tree) {
     }
     
     TreeNode *parent = aux->parent;
-    while(parent != NULL && parent->right == aux){
+    while(parent != NULL){
         aux = parent;
         parent = parent->parent;
     }
