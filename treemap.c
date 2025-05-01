@@ -120,5 +120,6 @@ Pair * nextTreeMap(TreeMap * tree) {
         tree->current = aux->right;
         return aux->right->pair;
     }
+    else return aux->pair;
     return NULL;
 }
